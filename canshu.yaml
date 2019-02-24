@@ -1,0 +1,41 @@
+%YAML:1.0
+---
+#camera_neican 
+camera_matrix: !!opencv-matrix   
+    rows: 3
+    cols: 3
+    dt: f
+    data: [527.3444,0,337.5232,0,531.2206,254.4946, 0,0,1]
+
+#camera_jibian
+dist_matrix: !!opencv-matrix
+    rows: 5
+    cols: 1
+    dt: f
+    data: [-0.4259,0.2928,-0.0106,-0.0031,0]
+    
+
+
+#HSV_blue
+iLowH: 60
+iHighH: 130
+iLowS: 30
+iHighS: 255
+iLowV: 30
+iHighV: 255
+
+#find_armor.cpp's parameters
+x2h_rate_min1: 1.0
+x2h_rate_max1: 3.0
+x2h_rate_min2: 7.5
+x2h_rate_max2: 8.5
+angle_of_Rotated: 33
+k: 0.6
+area_rate_min: 2.5
+area_rate_max: 3.0
+
+
+
+
+
+
